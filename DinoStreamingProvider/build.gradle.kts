@@ -2,7 +2,13 @@
 dependencies {
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.recyclerview:recyclerview:1.3.2")
-    implementation("com.lagradost:cloudstream3-plugin-api:1.0.0")
+}
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven("https://jitpack.io")
+    }
 }
 version = 1 // ✅ questa è fuori dal blocco cloudstream
 
