@@ -1,3 +1,11 @@
+pluginManagement {
+    repositories {
+        google()
+        gradlePluginPortal()
+        maven("https://jitpack.io")
+    }
+}
+
 rootProject.name = "CloudstreamPlugins"
 
 // This file sets what projects are included.
