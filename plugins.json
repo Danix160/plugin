@@ -1,0 +1,42 @@
+[
+    {
+        "iconUrl": "https://dinostreaming.it/favicon.ico",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Danix160/plugin",
+        "fileSize": 9017,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "doGior"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "DinoStreamingProvider",
+        "description": "Movies and Shows from DinoStreaming",
+        "url": "https://raw.githubusercontent.com/Danix160/plugin/builds/DinoStreamingProvider.cs3",
+        "name": "DinoStreamingProvider"
+    },
+    {
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Danix160/plugin",
+        "fileSize": 7311,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Cloudburst",
+            "Luna712"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": 1,
+        "internalName": "ExampleProvider",
+        "description": "Lorem ipsum",
+        "url": "https://raw.githubusercontent.com/Danix160/plugin/builds/ExampleProvider.cs3",
+        "name": "ExampleProvider"
+    }
+]

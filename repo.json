@@ -1,0 +1,8 @@
+{
+  "name": "Danix160 Repo",
+  "description": "Repository with DinoStreaming plugin",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/Danix160/plugin/builds/plugins.json"
+  ]
+}
