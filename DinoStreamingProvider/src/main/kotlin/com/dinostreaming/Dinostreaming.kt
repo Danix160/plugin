@@ -56,16 +56,16 @@ class DinoStreaming : MainAPI() {
         val isSerie = url.contains("/serie-tv/")
 
         return if (isSerie) {
-            val episodes = doc.select("ul.episodios li").mapNotNull {
-                val epLink = it.selectFirst("a")?.attr("href") ?: return@mapNotNull null
-                val epName = it.selectFirst("a")?.text() ?: ""
-                Episode(epLink, epName)
-            }
+            val episode = newEpisode("link") {
+            name = "Episodio 1"
+            season = 1
+            this.episode = 1 // <--- specifica `this.` per chiarezza
+        }
 
-            newTvSeriesLoadResponse(title, url, TvType.TvSeries, episodes) {
-                this.posterUrl = poster
-                this.plot = description
-            }
+            newTvSeriesLoadResponse(title, url, TvType.TvSeries, listOf(episode)) {
+            this.posterUrl = poster
+            this.plot = description
+        }
         } else {
             newMovieLoadResponse(title, url, TvType.Movie, url) {
                 this.posterUrl = poster
