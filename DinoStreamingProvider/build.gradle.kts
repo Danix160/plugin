@@ -1,4 +1,8 @@
-
+repositories {
+    google()
+    mavenCentral()
+    maven("https://jitpack.io") // <<< ASSICURATI CHE CI SIA QUESTO
+}
 dependencies {
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.recyclerview:recyclerview:1.3.2")
