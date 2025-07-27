@@ -1,4 +1,6 @@
 dependencies {
+    dependencies {
+    implementation("androidx.databinding:viewbinding:8.2.0") // o compatibile con AGP in uso
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.recyclerview:recyclerview:1.3.2")
     implementation("com.github.recloudstream.cloudstream:library:v4.5.2")
